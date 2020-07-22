@@ -1,7 +1,7 @@
 <script>
   let name = "world";
 
-  const calculate = seed => {
+  const calculate = () => {
     for (let i = 0; i < 20; i++) {
       world += i;
     }
